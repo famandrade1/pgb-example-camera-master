@@ -9,31 +9,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-	
-	<!--
-        Enable individual API permissions here.
-        The "device" permission is required for the 'deviceready' event.
-    -->
-    <feature name="http://api.phonegap.com/1.0/device" />
-    <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
-    <feature name="http://api.phonegap.com/1.0/camera"/>
-    <feature name="http://api.phonegap.com/1.0/file"/>
-    <feature name="http://api.phonegap.com/1.0/media"/>
-    <feature name="http://api.phonegap.com/1.0/network"/> 
-	
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
-	<preference name="phonegap-version" value="3.1.0" />
-	
-	<gap:plugin name="org.apache.cordova.core.camera" />
-	<gap:plugin name="org.apache.cordova.camera" />
-	<gap:plugin name="org.apache.cordova.file" />
-	<gap:plugin name="org.apache.cordova.media-capture" />
-	<gap:plugin name="org.apache.cordova.device" />
-	<gap:plugin name="org.apache.cordova.file-transfer" />
-	<gap:plugin name="org.apache.cordova.media" />
-	<gap:plugin name="org.apache.cordova.network-information" />
-	<gap:plugin name="org.apache.cordova.dialogs" />
-	<gap:plugin name="org.apache.cordova.vibration" />
-	<gap:plugin name="org.apache.cordova.splashscreen" />	
 </widget>
