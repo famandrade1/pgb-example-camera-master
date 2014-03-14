@@ -49,7 +49,7 @@ var app = {
 
     takePicture: function () {
 
-        try {
+        try {            
             navigator.camera.getPicture(function (imageURI) {
                 alert(imageURI);
             },
