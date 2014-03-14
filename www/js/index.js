@@ -68,11 +68,5 @@ var app = {
 
             alert(txt);
         }
-
-
-
-
-
-
     }
 };
