@@ -19,4 +19,5 @@
     <access origin="*" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="17" />
 </widget>
